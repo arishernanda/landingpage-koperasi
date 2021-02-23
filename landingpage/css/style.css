@@ -17,18 +17,17 @@
     margin-right: 10px;
 }
 
-/* button navbar */
 .tombol-navbar{
     text-transform: uppercase;
     border-radius: 40px;
     width: 100px;
     text-align: center;
-
 }
+/* */
 
 /* jumbotron */
 .jumbotron{
-    background-image: url(../img/bussines-foto.jpg);
+    background-image: url(../img/bussiness3-crop.jpg);
     background-size: cover;
     height: 540px;   
     text-align: center;
@@ -36,11 +35,14 @@
 }
 .jumbotron, .display-4{
     color: white;
-    margin-top: 150px;
-    font-weight: 200;
-    text-shadow: 1px 1px 1px rgba(0,0, 0, 0.7);
     font-size: 40px;
     margin-bottom: 30px;
+}
+.jumbotron h1{
+    margin-top: 150px;
+    color: white;
+    font-weight: 200;
+    text-shadow: 1px 1px 1px rgba(0,0, 0, 0.7);  
 }
 .jumbotron, .display-4 span{
     font-weight: 500;
@@ -88,9 +90,25 @@
 /*  */
 
 /* about */
-.about-ly{
-    margin-top: 120px;
+.row{
+    display: flex;
+    flex-wrap: wrap;
 }
+.flex-1{
+    width: 50%;
+    height: auto;
+   
+}
+.flex-1 img{
+    width: 300px;
+    height: 400px;
+}
+.flex-2{
+    width: 50%;
+    text-align: center;
+}
+
+
 /*  */
 
 
@@ -115,6 +133,10 @@
         padding-bottom: 5px;
         margin-bottom: -8px;
     } 
+    .tombol-navbar{
+        padding-top: 8px;
+        bottom: 10px;
+    }
     .jumbotron{
         margin-top: -75px;
         height: 640px;
@@ -123,4 +145,5 @@
         font-size: 62px;
     }
 }
+
 
